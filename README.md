@@ -9,12 +9,12 @@
 - The Bookshelf instance renders Books accurately.
 
 
-# Navigation --- Need to Correct Home link
+# Navigation --- Complete
 - A Navigation Bar is included in the web app with links to other parts of the site e.g. "About", "Contact". --- Complete
 - No real information is required. Dummy data or lorum ipsum is fine! --- Complete
 
 
-# Comments
+# Comments --- complete
 - Users can leave comments no longer than 280 characters on any Book they want. 
 - Users can press a "Comment" button which reveals a `text` input element.
 - Users can then type their comment and click "send" to add it to the Book.
@@ -22,12 +22,6 @@
 - The Book and Bookshelf instances are updated accordingly.
 - The comments persist even if a search or sort rerenders the Books.
 - Data can be stored locally or in state memory. A database is not required. 
-
-# Index
-- Add new Books
-
-- Remove btns by the added titles
-
 
 # Book Class
 
@@ -50,14 +44,11 @@
 - render the list to HTML
 
 
-### About.HTML --- 
+### About.HTML --- complete
 
 - Update
 
-- connect back to index.html
-
-#### Contact.HTML --- 
+#### Contact.HTML ---  complete
 
 - Update
 
-- connect back to index.html 
