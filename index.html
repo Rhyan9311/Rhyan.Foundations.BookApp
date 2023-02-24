@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf App</title>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+   
+    <nav>
+      <!-- Nav element contains links to other pages -->
+      <div id="name">Rhyan's Bookshelf</div>
+      <div id="links">
+        <a defer href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+   
+    <nav>
+      <section class="search">
+        <input placeholder="Search" />
+        <button class="searchBtn">Search</button>
+      </section>
+     
+      <section class="sort">
+        <label>Sort by</label>
+        <select class="sortBy">
+          <option value="titleaz">Title A-Z</option>
+          <option value="titleza">Title Z-A</option>
+        </select>
+      </section>
+     
+      <section>
+        You have <span class="favCount">0</span> favorite books.
+        <button class="favUpdateBtn">Update</button>
+      </section>
+    </nav>
+    
+    <nav>
+      <form id="add-book-form">
+      <input type="text" placeholder="Add author..." id="author">
+      <input type="text" placeholder="Add language..." id="language">
+      <input type="text" placeholder="Add subject..." id="subject">
+      <input type="text" placeholder="Add title..." id="title">
+      <button class="addBookBtn" type="button">Add Book</button>
+      <button class="resetBtn" type="button">Reset</button>
+      </form>
+    </nav>
+
+    
+    
+    <main id="app">
+      <ul class="books"></ul> 
+    </main>
+      
+    <div class="book-list"></div>
+    <script src="js/book-data.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

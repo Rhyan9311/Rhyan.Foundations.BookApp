@@ -1,0 +1,101 @@
+body {
+  font: 400 18px helvetica,sans-serif;
+  color: #fafafa;
+  margin: 0;
+  padding: 50px;
+  background: #222;
+}
+
+/* Just the UL styling all you need */
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 1.5;
+  text-indent: -30px;
+  padding: 8px 0 8px 30px;
+}
+
+li:before {
+  float: left;
+  display: block;
+  content: '\01F49B';
+  margin: 0 30px 0 0;
+}
+
+/* Added CSS */
+
+#links > a {
+  margin: 8px;
+  font-size: 26px;
+}
+
+#name {
+  font-size: 28px;
+}
+
+img {
+  height: 400px;
+  width: 350px;
+  box-shadow: 8px 8px 2px gray;
+}
+
+/* Using the id for each <p>, we can set the font styling to italic for one and
+bold for another. This breaks up the reading into visual sections for our 
+users.*/
+#mission {
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+}
+
+#quote {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+#about_content,
+#contactUs {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#about,
+#began {
+  text-align: left;
+  font-size: 28px;
+}
+
+#portfolio_content {
+  font-size: 22px;
+}
+
+#portfolio_content > a {
+  font-size: 26px;
+}
+
+#logo {
+  height: 30px;
+  width: 30px;
+  box-shadow: 0 0 0;
+  margin-top: 14px;
+  margin-left: 4px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 18px;
+  border-top: 3px solid black;
+}
