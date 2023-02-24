@@ -20,7 +20,7 @@ class Book {
    * @param {string} commentText the text of the comment
    */
   addComment(commentText) {
-    if (commentText.length > 280) {
+    if (commentText.length >= 280) {
       alert("Comment must be 280 characters or less.");
       return;
     }

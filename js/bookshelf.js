@@ -142,7 +142,7 @@ class Bookshelf {
 }
 
 /**
- * Add a new book object to bookshelf
+ * 
  * when the addBtn is clicked, then rerender.
  */
 let addBtn = document.querySelector(".addBookBtn");
